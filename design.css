@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Playfair Display&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Sansation&display=swap');
+
+.navbar {
+    background-color: rgba(22, 22, 22, 1);
+}
+
+.navbar-brand {
+    font-family: Playfair Display, serif;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.navbar-nav li a {
+    margin-right: 116px;
+    margin-top: 43px;
+    margin-bottom: 38px;
+}
+
+.omir {
+    background: url(./media/background.png);
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.omir-title h2 {
+    color: #FFF;
+    font-family: Playfair Display;
+    font-size: 91px;
+    font-weight: 900;
+    text-align: center;
+    font-style: normal;
+    line-height: normal;
+    padding-top: 149px;
+    visibility: hidden;
+}
+
+.omir-title h3 {
+    color: #ADADAD;
+    text-align: center;
+    font-family: Sansation;
+    font-size: 34px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 2.04px;
+    padding-bottom: 149px;
+    visibility: hidden;
+}
+
+.omir-title {
+    margin-bottom: 149px;
+}
+
+.shirt {
+    background: #FFF;
+}
+
+.shirt-main {
+    display: flex;
+    margin-left: 119px;
+    margin-bottom: 205px;
+    gap: 72px;
+}
+
+
+.shirt-desc h2 {
+    color: #000;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-bottom: 87px;
+}
+
+.shirt-desc h4 {
+    color: #6A6A6A;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.shirt-images, .hoodie-images {
+    margin-top: 51px;
+}
+
+
+.shirt-images p {
+    margin-top: 23px;
+    margin-bottom: 24px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+}
+
+.shirt-btn {
+    font-family: Montserrat;
+    text-align: center;
+    padding: 19px 76px;
+    background-color: #1E1E1E;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s linear;
+    margin-left: 125px;
+    border: 1px solid #000;
+}
+
+.shirt-btn:hover, .hoodie-btn:hover, .hoodie-btn-1:hover, .shirt-btn-2:hover {
+    background-color: #FFF;
+    color: #000;
+}
+
+.hoodie-main {
+    display: flex;
+    margin-left: 74px;
+    margin-bottom: 200px;
+    gap: 160px;
+}
+
+.shirt h4 {
+    color: #6A6A6A;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+}
+
+.hoodie-images p {
+    margin-top: 23px;
+    margin-bottom: 24px;
+    color: #000;
+    font-family: Montserrat;
+    font-size: 42px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: normal;
+    text-align: center;
+}
+
+.hoodie-btn {
+    font-family: Montserrat;
+    text-align: center;
+    padding: 19px 76px;
+    background-color: #1E1E1E;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s linear;
+    margin-left: 95px;
+    border: 1px solid #000;
+}
+
+.hoodie-btn-1 {
+    font-family: Montserrat;
+    text-align: center;
+    padding: 19px 76px;
+    background-color: #1E1E1E;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s linear;
+    margin-left: 50px;
+    border: 1px solid #000;
+}
+
+footer {
+    background-color: rgba(22, 22, 22, 1);
+}
+
+.footer_social p {
+    margin-top: 47px;
+    margin-bottom: 54px;
+    color: #FFF;
+    font-family: Montserrat;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+
+.footer_item {
+    padding-left: 21px;
+}
+
+.footer_main {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 119px;
+}
+
+
+.call, .email {
+    display: flex;
+    align-items: center;
+}
+
+.footer_contact .cont {
+    margin-top: 47px;
+    font-family: Montserrat;
+    font-size: 32px;
+    color: #FFF;
+    font-weight: 500;
+}
+
+.call p, .email p {
+    font-family: Montserrat;
+    font-size: 30px;
+    font-weight: 300;
+    color: #FFF;
+    margin-right: 98px;
+}
+
+.call p {
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.email p {
+    margin-left: 8px;
+}
+
+.shirt-container img {
+    margin-top: 200px;
+    margin-left: 113px;
+    margin-right: 154px;
+    margin-bottom: 135px;
+}
+
+.shirt-title p {
+    color: #000;
+    font-family: Montserrat;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-top: 290px;
+    margin-bottom: 66px;
+}
+
+.shirt-container {
+    display: flex;
+}
+
+.shirt-btn-2 {
+    font-family: Montserrat;
+    text-align: center;
+    font-size: 40px;
+    padding: 24px 120px 24px 120px;
+    background-color: #1E1E1E;
+    color: #FFF;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background-color 0.3s linear;
+    border: 1px solid #000;
+}
+
+.shirt-about {
+    margin-left: 115px;
+}
+
+.shirt-about p {
+    color: #000;    
+    font-family: Montserrat;
+    font-weight: 300;
+    font-size: 52px;
+}
